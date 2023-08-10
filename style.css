@@ -1,0 +1,64 @@
+
+
+
+header {
+    background-image: url(https://i.pinimg.com/1200x/0a/cb/d6/0acbd6d55bc70da16e173fcafdb49376.jpg);
+    color: white;
+    text-align: center;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    background-color: rgb(236, 215, 187);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    text-decoration: burlywood;
+    color: burlywood;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: white;
+}
+
+.menu-item:hover {
+    background-color: rgba(255, 249, 198, 0.795);
+    color: white ;
+}
+ 
+ h1 {
+     text-align: center;
+     font-size: 35px;
+    color: white;
+    margin:20px 10px 0px 10px
+ }
+
+ h2 {
+     text-align: center;
+     font-size: 35px;
+    background-color: burlywood;
+    color: white;
+    margin:20px 10px 0px 10px ;
+ }
+
+ h3 {
+     text-align: center;
+      font-size: 35px;
+    background-color: burlywood;
+    color: white;
+    margin:20px 10px 0px 10px 
+ }
+
+
+
+.center{
+     display: flex;
+     justify-content: center;
+ }
